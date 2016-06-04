@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Clicker de 2016</title>
+</head>
+
+<body>
+
+<p>Welcome . . . Click Away!</p>
+
+    <script type="text/javascript">
+    var click = 0;
+    function onClick() {
+        click += 1;
+        document.getElementById("click").innerHTML = click;
+    };
+    </script>
+    <button type="button" onClick="onClick()">Click me</button>
+    <p>Clicks: <a id="click">0</a></p>
+
+</body></html>
